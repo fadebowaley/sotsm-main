@@ -1,0 +1,63 @@
+{
+  "sorted_middleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/_ff6b2f._.js",
+        "server/edge/chunks/src_b623dc._.js",
+        "server/edge/chunks/edge-wrapper_d1f271.js",
+        "server/edge/chunks/edge-wrapper_2cd2e7.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "locale": false,
+          "originalSource": "/"
+        },
+        {
+          "locale": false,
+          "originalSource": "/executive"
+        },
+        {
+          "locale": false,
+          "originalSource": "/financial"
+        },
+        {
+          "locale": false,
+          "originalSource": "/analytics"
+        },
+        {
+          "locale": false,
+          "originalSource": "/logistics/:path*"
+        },
+        {
+          "locale": false,
+          "originalSource": "/ecommerce/:path*"
+        },
+        {
+          "locale": false,
+          "originalSource": "/support/:path*"
+        },
+        {
+          "locale": false,
+          "originalSource": "/file/:path*"
+        },
+        {
+          "locale": false,
+          "originalSource": "/file-manager"
+        },
+        {
+          "locale": false,
+          "originalSource": "/invoice/:path*"
+        },
+        {
+          "locale": false,
+          "originalSource": "/forms/profile-settings/:path*"
+        }
+      ]
+    }
+  },
+  "instrumentation": null,
+  "functions": {}
+}
